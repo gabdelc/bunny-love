@@ -1,3 +1,4 @@
+*{outline: 1px solid purple;}
 body{
    font-family: "Baloo Paaji";
   box-sizing: border-box;
@@ -8,12 +9,11 @@ h1, h3, h4, #red{
 /* -------------- HEADER -----------------------------------*/
 
 header{
-    background: rgb(75, 108, 154);
+    background: #0f7588;
 }
-header a{
+header a, header i {
     color: #FFF;
 }
-
 
 /* --------- HERO ------------------------------------------- */
 .fondo-h{
@@ -21,7 +21,7 @@ header a{
     background-size: cover;
 }
 .titulo{
-     background: rgba(85, 152, 201, 0.88);
+     background: rgba(16, 142, 165, 0.81);
     margin: 10% 15%;
     padding: 3%;
 }
@@ -30,6 +30,7 @@ header a{
 }
 .titulo p{
     font-size: 20px;
+    color: #FFF;
 }
 
 
@@ -60,26 +61,30 @@ header a{
 }
 .cone1 h3, .cone1 p{
     text-align: center;
-    margin: 3% 0;
+    padding: 2%;
+    margin: 2%;
+    }
+.cone1 span{
+    margin: 2%;
 }
 .buscar{
     padding: 5%;
     margin-bottom: 2%;
 }
-.iconos {
-    display: inline block;
-    margin:-1% 0 2% 0;
-}
 
 .iconos .i-ctn{
     border-radius: 100%;
     background: #FFF;
-    padding: 0.5%;
     text-align: center;
+    display: inline;
+    padding: 1%;
+    margin: 2%;
 }
 .iconos i{
     color:#108ea5;
     font-size: 15px;
+    margin: 2%;
+    
 }
 
 /* -------------SECTION OREJAS------------------------------- */
